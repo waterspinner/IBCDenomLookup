@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .main-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8503cf;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .main-card .ibc-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .main-card .ibc-info .ibc-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .main-card .ibc-info .ibc-submit {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .main-card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .main-card ul li {
+    margin-bottom: 10px;
+  }
+  
+  .main-card ul li .current-denom,
+  .main-card ul li .current-token {
+    font-weight: bold;
+  }
+  
