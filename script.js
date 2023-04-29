@@ -36,8 +36,8 @@ const currentToken = document.querySelector('.current-token');
   
     // Display search results
     if (searchData) {
-      currentDenom.textContent = searchData.base;
-      currentToken.textContent = searchData.name;
+      currentDenom.textContent+= searchData.base;
+      currentToken.textContent+= searchData.name;
     } else {
       currentDenom.textContent = 'No Information Available';
       currentToken.textContent = 'No Information Available';
